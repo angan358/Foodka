@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 1200px; */
+  margin: 0px auto;
+  align-items: center;
+  padding: 10px;
+  background-color: blue;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 8px;
+    letter-spacing: 0.5px;
+    margin: 10px;
+    color: white;
+  
+}
+
+.navbar h2{
+    color: white;
+}
