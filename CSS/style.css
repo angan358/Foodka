@@ -37,3 +37,14 @@ body{
 .navbar h2{
     color: white;
 }
+
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-img img{
+  height: 650px;
+  width: 650px;
+}
