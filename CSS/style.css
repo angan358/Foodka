@@ -42,4 +42,23 @@ body{
   max-width: 1150px;
   width: 100%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.home-img img{
+  border-radius: 50%;
+  height: 455px;
+}
+
+.text-section h3{
+  font-size: 80px;
+  font-weight: 400;
+}
+.text-section p{
+  font-size: 30px;
+  line-height: 10px;
 }
